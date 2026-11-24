@@ -3,6 +3,8 @@
 A remote control for the world radios and TVs near the player in Cyberpunk 2077: power, station or channel, volume and mute, from a Cyber Engine Tweaks window or optional hotkeys. Single-player only.
 Version 1.0.3 (window 1.0.2) | For game version 2.5 | Status: in use in my game and working; no written test record; checked with an offline mock test (37 of 37 checks pass)
 
+**Download:** [latest release](https://github.com/penicius-code/cp2077-media-remote/releases/latest) (zip; install steps below)
+
 > This is an unofficial fan work and is not approved/endorsed by CD PROJEKT RED. No game files are included.
 
 <img src="docs/media/media-remote.png" width="480" alt="The Cyberslop Media Remote window with a reach slider and nearby televisions, each with a power button, channel picker, volume slider and mute button">
@@ -46,7 +48,7 @@ Requirements are not bundled. Install them first.
 ## Install
 
 1. Install the requirements above.
-2. Copy the contents of `package/` into the game folder, so that `r6\scripts\CyberslopMediaRemote\MediaRemote.reds` and `bin\x64\plugins\cyber_engine_tweaks\mods\CyberslopMediaRemote\init.lua` exist.
+2. Download the zip from the [latest release](https://github.com/penicius-code/cp2077-media-remote/releases/latest) (the same files as `package/` in this repository) and extract it into the game folder, so that `r6\scripts\CyberslopMediaRemote\MediaRemote.reds` and `bin\x64\plugins\cyber_engine_tweaks\mods\CyberslopMediaRemote\init.lua` exist.
 3. Start the game, load a save near a radio or TV and open the CET overlay: the "Cyberslop Media Remote" window lists it.
 
 ## Uninstall / roll back
