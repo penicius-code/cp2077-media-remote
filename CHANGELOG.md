@@ -1,6 +1,6 @@
 # Changelog
 
-All versions are for game version 2.5. None of them has been run in game yet.
+All versions are for game version 2.5. 1.0.3 is in use in the author's game and working; no version has a written test record.
 
 ## 1.0.3 - 2026-11-23
 ### Fixed

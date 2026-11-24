@@ -1,7 +1,7 @@
 # Media Remote
 
 A remote control for the world radios and TVs near the player in Cyberpunk 2077: power, station or channel, volume and mute, from a Cyber Engine Tweaks window or optional hotkeys. Single-player only.
-Version 1.0.3 (window 1.0.2) | For game version 2.5 | Status: not run in game yet; checked with an offline mock test (37 of 37 checks pass)
+Version 1.0.3 (window 1.0.2) | For game version 2.5 | Status: in use in my game and working; no written test record; checked with an offline mock test (37 of 37 checks pass)
 
 > This is an unofficial fan work and is not approved/endorsed by CD PROJEKT RED. No game files are included.
 
@@ -67,10 +67,10 @@ Requirements are not bundled. Install them first.
 
 | Version | Date | Result |
 |---|---|---|
-| 1.0.0 | 2026-11-22 | Not run in game. |
-| 1.0.1 | 2026-11-22 | Review fixes before any in-game run. Not run in game. |
-| 1.0.2 | 2026-11-22 | Window fix found in review. Not run in game. |
-| 1.0.3 | 2026-11-23 | Radio volume fix. Not run in game. |
+| 1.0.0 | 2026-11-22 | No written test record. |
+| 1.0.1 | 2026-11-22 | Review fixes. No written test record. |
+| 1.0.2 | 2026-11-22 | Window fix found in review. No written test record. |
+| 1.0.3 | 2026-11-23 | Radio volume fix. In use in the author's game and working (author's statement, 2026-11-24). No written test record. |
 
 Checked for this repository: `tests/mock.lua` passes 37 of 37 checks on the published `init.lua` with LuaJIT. A source audit compared all five wraps on game methods with the 2.5 game scripts: they match. No redscript compile was run for this repository.
 
@@ -84,7 +84,7 @@ Checked for this repository: `tests/mock.lua` passes 37 of 37 checks on the publ
 ## Known issues
 
 - A radio whose level was changed may not duck under dialogue the way an untouched radio does. Not changed so far.
-- The mod has never been run in game.
+- No version has a written in-game test record.
 
 ## Engineering notes
 
